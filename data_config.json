@@ -1,0 +1,17 @@
+{
+	"sources": {
+		"csv": {
+			"itempart1": "./assets/item_properties_part1.csv",
+            "itempart2": "./assets/item_properties_part2.csv"
+		}
+	},
+	"credentials":	{
+		"mongo": {
+			"host": "mongo",
+			"user": "root",
+			"password": "xxxxxxxxxxx",
+			"dbname": "shell",
+			"params": "authSource=admin"
+		}
+	}
+}
